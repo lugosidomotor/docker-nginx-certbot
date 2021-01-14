@@ -5,7 +5,7 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domains=(marhavicces.hu www.marhavicces.hu)
+domains=(cloudtroopers.hu www.cloudtroopers.hu)
 rsa_key_size=4096
 data_path="./data/certbot"
 email="lugosi.domotor@gmail.com" # Adding a valid address is strongly recommended
